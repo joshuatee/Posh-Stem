@@ -25,6 +25,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "torspec", "torspec", "{2694
 		torspec\version-spec.txt = torspec\version-spec.txt
 	EndProjectSection
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "xxx", "xxx\xxx.pyproj", "{9FACF148-9DE3-468C-9788-1558BFC30400}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,8 @@ Global
 		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B808E501-A042-4386-9A06-18B02281664F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B808E501-A042-4386-9A06-18B02281664F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FACF148-9DE3-468C-9788-1558BFC30400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FACF148-9DE3-468C-9788-1558BFC30400}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
