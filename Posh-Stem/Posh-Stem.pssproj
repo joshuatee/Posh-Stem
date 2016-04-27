@@ -31,6 +31,7 @@
     <Compile Include="Posh-Stem.psd1" />
     <Compile Include="Posh-Stem.psm1" />
     <Compile Include="Posh-Stem.tests.ps1" />
+    <Compile Include="Start-Tor.ps1" />
     <Compile Include="version.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
