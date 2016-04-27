@@ -5,8 +5,6 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "Posh-Stem", "Posh-Stem\Posh-Stem.pssproj", "{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}"
 EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "stem", "stem.pyproj", "{B808E501-A042-4386-9A06-18B02281664F}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "torspec", "torspec", "{26940AA9-1EAC-4116-9FCB-9DDDF7A0443A}"
 	ProjectSection(SolutionItems) = preProject
 		torspec\address-spec.txt = torspec\address-spec.txt
@@ -25,7 +23,76 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "torspec", "torspec", "{2694
 		torspec\version-spec.txt = torspec\version-spec.txt
 	EndProjectSection
 EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "xxx", "xxx\xxx.pyproj", "{9FACF148-9DE3-468C-9788-1558BFC30400}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "stem", "stem", "{509E070E-CD60-4058-81D5-272F1BFB0685}"
+	ProjectSection(SolutionItems) = preProject
+		stem\stem\__init__.py = stem\stem\__init__.py
+		stem\stem\cached_tor_manual.cfg = stem\stem\cached_tor_manual.cfg
+		stem\stem\connection.py = stem\stem\connection.py
+		stem\stem\control.py = stem\stem\control.py
+		stem\stem\exit_policy.py = stem\stem\exit_policy.py
+		stem\stem\manual.py = stem\stem\manual.py
+		stem\stem\prereq.py = stem\stem\prereq.py
+		stem\stem\process.py = stem\stem\process.py
+		stem\stem\settings.cfg = stem\stem\settings.cfg
+		stem\stem\socket.py = stem\stem\socket.py
+		stem\stem\version.py = stem\stem\version.py
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "descriptor", "descriptor", "{F3C38A7E-CCD2-4B19-B0F6-6A3B5348A937}"
+	ProjectSection(SolutionItems) = preProject
+		stem\stem\descriptor\__init__.py = stem\stem\descriptor\__init__.py
+		stem\stem\descriptor\export.py = stem\stem\descriptor\export.py
+		stem\stem\descriptor\extrainfo_descriptor.py = stem\stem\descriptor\extrainfo_descriptor.py
+		stem\stem\descriptor\fallback_directories.cfg = stem\stem\descriptor\fallback_directories.cfg
+		stem\stem\descriptor\hidden_service_descriptor.py = stem\stem\descriptor\hidden_service_descriptor.py
+		stem\stem\descriptor\microdescriptor.py = stem\stem\descriptor\microdescriptor.py
+		stem\stem\descriptor\networkstatus.py = stem\stem\descriptor\networkstatus.py
+		stem\stem\descriptor\reader.py = stem\stem\descriptor\reader.py
+		stem\stem\descriptor\remote.py = stem\stem\descriptor\remote.py
+		stem\stem\descriptor\router_status_entry.py = stem\stem\descriptor\router_status_entry.py
+		stem\stem\descriptor\server_descriptor.py = stem\stem\descriptor\server_descriptor.py
+		stem\stem\descriptor\tordnsel.py = stem\stem\descriptor\tordnsel.py
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "interpreter", "interpreter", "{3FBAF3EB-46B9-4C1D-A35A-6A132E3F5605}"
+	ProjectSection(SolutionItems) = preProject
+		stem\stem\interpreter\__init__.py = stem\stem\interpreter\__init__.py
+		stem\stem\interpreter\arguments.py = stem\stem\interpreter\arguments.py
+		stem\stem\interpreter\autocomplete.py = stem\stem\interpreter\autocomplete.py
+		stem\stem\interpreter\commands.py = stem\stem\interpreter\commands.py
+		stem\stem\interpreter\help.py = stem\stem\interpreter\help.py
+		stem\stem\interpreter\settings.cfg = stem\stem\interpreter\settings.cfg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "response", "response", "{EFDAC2A4-162A-4CB3-8CBC-03AD32D68783}"
+	ProjectSection(SolutionItems) = preProject
+		stem\stem\response\__init__.py = stem\stem\response\__init__.py
+		stem\stem\response\add_onion.py = stem\stem\response\add_onion.py
+		stem\stem\response\authchallenge.py = stem\stem\response\authchallenge.py
+		stem\stem\response\events.py = stem\stem\response\events.py
+		stem\stem\response\getconf.py = stem\stem\response\getconf.py
+		stem\stem\response\getinfo.py = stem\stem\response\getinfo.py
+		stem\stem\response\mapaddress.py = stem\stem\response\mapaddress.py
+		stem\stem\response\protocolinfo.py = stem\stem\response\protocolinfo.py
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "util", "util", "{DAB5DFC9-8DA7-4C7C-B595-1FDE1FA13E3C}"
+	ProjectSection(SolutionItems) = preProject
+		stem\stem\util\__init__.py = stem\stem\util\__init__.py
+		stem\stem\util\conf.py = stem\stem\util\conf.py
+		stem\stem\util\connection.py = stem\stem\util\connection.py
+		stem\stem\util\enum.py = stem\stem\util\enum.py
+		stem\stem\util\log.py = stem\stem\util\log.py
+		stem\stem\util\lru_cache.py = stem\stem\util\lru_cache.py
+		stem\stem\util\ordereddict.py = stem\stem\util\ordereddict.py
+		stem\stem\util\ports.cfg = stem\stem\util\ports.cfg
+		stem\stem\util\proc.py = stem\stem\util\proc.py
+		stem\stem\util\str_tools.py = stem\stem\util\str_tools.py
+		stem\stem\util\system.py = stem\stem\util\system.py
+		stem\stem\util\term.py = stem\stem\util\term.py
+		stem\stem\util\test_tools.py = stem\stem\util\test_tools.py
+		stem\stem\util\tor_tools.py = stem\stem\util\tor_tools.py
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,12 +104,14 @@ Global
 		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B808E501-A042-4386-9A06-18B02281664F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B808E501-A042-4386-9A06-18B02281664F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9FACF148-9DE3-468C-9788-1558BFC30400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9FACF148-9DE3-468C-9788-1558BFC30400}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F3C38A7E-CCD2-4B19-B0F6-6A3B5348A937} = {509E070E-CD60-4058-81D5-272F1BFB0685}
+		{3FBAF3EB-46B9-4C1D-A35A-6A132E3F5605} = {509E070E-CD60-4058-81D5-272F1BFB0685}
+		{EFDAC2A4-162A-4CB3-8CBC-03AD32D68783} = {509E070E-CD60-4058-81D5-272F1BFB0685}
+		{DAB5DFC9-8DA7-4C7C-B595-1FDE1FA13E3C} = {509E070E-CD60-4058-81D5-272F1BFB0685}
 	EndGlobalSection
 EndGlobal
