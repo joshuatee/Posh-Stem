@@ -1,0 +1,6 @@
+[submodule "torspec"]
+	path = torspec
+	url = https://git.torproject.org/torspec.git
+[submodule "stem"]
+	path = stem
+	url = https://git.torproject.org/stem.git
