@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "Posh-Stem", "Posh-Stem\Posh-Stem.pssproj", "{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}"
 EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "stem", "stem\stem\stem.pyproj", "{B808E501-A042-4386-9A06-18B02281664F}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "stem", "stem.pyproj", "{B808E501-A042-4386-9A06-18B02281664F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "torspec", "torspec", "{26940AA9-1EAC-4116-9FCB-9DDDF7A0443A}"
 	ProjectSection(SolutionItems) = preProject
